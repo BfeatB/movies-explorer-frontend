@@ -6,3 +6,9 @@
   min-width: 184px;
   padding: 0px 0px 0px 0px;
 }
+
+@media screen and (max-width: 460px) {
+  .header__nav {
+  min-width: 134px;
+  }
+}

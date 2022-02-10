@@ -4,3 +4,9 @@
   color: white;
   border-radius: 3px;
 }
+
+@media screen and (max-width: 460px) {
+  .header__auth_active {
+  padding: 5px 13px 5px 10px;
+  }
+}
