@@ -7,3 +7,18 @@
   letter-spacing: -0.04em;
   max-width: 800px;
 }
+
+@media screen and (max-width: 1000px) {
+  .hero__title {
+    margin: 324px 0 342px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero__title {
+    margin: 205px 0 246px 0;
+    font-size: 31px;
+    line-height: 39px;
+    max-width: 295px;
+  }
+}
