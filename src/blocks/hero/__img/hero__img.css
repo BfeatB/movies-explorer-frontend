@@ -1,0 +1,5 @@
+.hero__img {
+  position: absolute;
+  max-width: 500px;
+  top: 80px;
+}

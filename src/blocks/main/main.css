@@ -1,0 +1,11 @@
+.main {
+font-family: 'Inter', 'Arial', sans-serif;
+color: black;
+min-width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0 0 0 0;
+  }
+}
