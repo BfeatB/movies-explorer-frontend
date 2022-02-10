@@ -5,9 +5,15 @@ function NavTab(props) {
     <section className="nav">
       <nav>
         <ul className="nav__list">
-          <li className="nav__item">О проекте</li>
-          <li className="nav__item">Технологии</li>
-          <li className="nav__item">Студент</li>
+          <li className="nav__item">
+            <a className="link" href="/">О проекте</a>
+          </li>
+          <li className="nav__item">
+             <a className="link" href="/">Технологии</a>
+          </li>
+          <li className="nav__item">
+            <a className="link" href="/">Студент</a>
+          </li>
         </ul>
       </nav>
     </section>

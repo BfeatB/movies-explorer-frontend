@@ -3,4 +3,12 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__item {
+    font-size: 11px;
+    padding: 10px 10px;
+  }
 }
