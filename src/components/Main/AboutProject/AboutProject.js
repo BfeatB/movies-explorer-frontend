@@ -1,11 +1,10 @@
 import React from "react";
+import MainTitle from "../MainTitle/MainTitle";
 
 function AboutProject(props) {
   return (
     <section className="project">
-      <div className="project__title-container">
-        <h2 className="project__title">О проекте</h2>
-      </div>
+      <MainTitle title="О проекте"/>
       <article className="project__article">
         <h3 className="project__article-title">Дипломный проект включал 5 этапов</h3>
         <p className="project__article_text">Составление плана, работу над бэкендом, вёрстку, добавление функциональности и финальные доработки.</p>

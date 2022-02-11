@@ -1,0 +1,17 @@
+.techs__item {
+  padding-top: 21px;
+  min-width: 90px;
+  min-height: 60px;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: -.04rem;
+}
+
+.techs__item:last-child {
+  margin-right: 0px;
+}
