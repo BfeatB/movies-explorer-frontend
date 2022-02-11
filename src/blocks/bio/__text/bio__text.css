@@ -17,5 +17,6 @@
   .bio__text {
     font-size: 11px;
     line-height: 16px;
+    margin: 0 0 55px 0;
   }
 }
