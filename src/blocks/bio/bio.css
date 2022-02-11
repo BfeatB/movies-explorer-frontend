@@ -1,0 +1,13 @@
+@import url(./__article/bio__article.css);
+@import url(./__title/bio__title.css);
+@import url(./__description/bio__description.css);
+@import url(./__texts/bio__texts.css);
+@import url(./__text/bio__text.css);
+@import url(./__list/bio__list.css);
+@import url(./__link/bio__link.css);
+@import url(./__avatar/bio__avatar.css);
+
+.bio {
+  padding: 111px 70px 100px 70px;
+  background-color: #FAFAFA;
+}

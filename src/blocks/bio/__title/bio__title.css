@@ -1,0 +1,20 @@
+.bio__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  margin: 0 0 19px 0;
+  letter-spacing: -.11rem;
+}
+
+@media screen and (max-width: 768px) {
+  .bio__title {
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bio__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

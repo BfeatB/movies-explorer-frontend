@@ -1,0 +1,5 @@
+.bio__avatar {
+  max-width: 270px;
+  border-radius: 10px;
+  grid-area: img;
+}

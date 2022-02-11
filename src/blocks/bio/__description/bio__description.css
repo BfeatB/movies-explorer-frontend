@@ -1,0 +1,20 @@
+.bio__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 25px 0;
+    letter-spacing: .01rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .bio__description {
+      margin: 0 0 0 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .bio__description {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }

@@ -1,0 +1,9 @@
+.bio__list {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  grid-area: links;
+}

@@ -4,13 +4,9 @@
 @import url(./blocks/link/link.css);
 
 @import url(./blocks/header/header.css);
-
 @import url(./blocks/main/main.css);
-
 @import url(./blocks/hero/hero.css);
-
 @import url(./blocks/nav/nav.css);
-
 @import url(./blocks/project/project.css);
-
 @import url(./blocks/techs/techs.css);
+@import url(./blocks/bio/bio.css);
