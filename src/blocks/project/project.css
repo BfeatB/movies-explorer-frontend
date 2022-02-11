@@ -1,0 +1,33 @@
+@import url(./__title/project__title.css);
+@import url(./__title-container/project__title-container.css);
+
+@import url(./__article/project__article.css);
+@import url(./__article-title/project__article-title.css);
+@import url(./__article_text/project__article_text.css);
+@import url(./__table/project__table.css);
+@import url(./__table-item/project__table-item.css);
+@import url(./__table-item/_blue/project__table-item_blue.css);
+@import url(./__table-item/_grey/project__table-item_grey.css);
+@import url(./__table-item/_white/project__table-item_white.css);
+
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 110px 70px;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project {
+    padding: 71px 18px;
+  }
+}
