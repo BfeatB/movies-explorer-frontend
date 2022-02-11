@@ -11,3 +11,15 @@
   padding: 111px 70px 100px 70px;
   background-color: #FAFAFA;
 }
+
+@media screen and (max-width: 768px) {
+  .bio {
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bio {
+    padding: 82px 15px;
+  }
+}

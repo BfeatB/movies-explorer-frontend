@@ -1,9 +1,19 @@
 .bio__article {
-  display: grid;
-  grid-template-columns: 76.3% 23.7%;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "text img"
-    "links img";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 65px 0 0 0;
+  position: relative;
 }
+
+
+@media screen and (max-width: 600px) {
+  .bio__article {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
+  }
+}
+

@@ -6,3 +6,9 @@
   line-height: 17px;
   margin-right: 21px;
 }
+
+@media screen and (max-width: 600px) {
+  .bio__link{
+    margin-right: 25px;
+  }
+}

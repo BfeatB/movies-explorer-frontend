@@ -6,12 +6,22 @@
   border-radius: 10px;
   font-size: 14px;
   line-height: 17px;
-  margin-right: 10px;
+  margin: 5px;
   text-align: center;
   box-sizing: border-box;
   letter-spacing: -.04rem;
 }
 
-.techs__item:last-child {
-  margin-right: 0px;
+@media screen and (max-width: 768px) {
+  .techs__item {
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 84px;
+    min-height: 57px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .techs__item {
+  }
 }

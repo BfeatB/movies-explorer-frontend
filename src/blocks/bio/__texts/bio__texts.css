@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  grid-area: text;
-  max-width: 68%;
+  max-width: 52%;
+}
+
+@media screen and (max-width: 600px) {
+  .bio__texts {
+    max-width: 100%;
+  }
 }
