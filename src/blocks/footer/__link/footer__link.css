@@ -1,6 +1,7 @@
 .footer__link{
   font-size: 13px;
   line-height: 16px;
-  color: #A0A0A0;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
