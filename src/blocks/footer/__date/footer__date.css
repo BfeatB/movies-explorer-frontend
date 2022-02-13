@@ -3,3 +3,10 @@
   line-height: 16px;
   margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__date {
+    margin: 21px 0 10px 0;
+    color: #A0A0A0;
+  }
+}

@@ -4,13 +4,12 @@ font-weight: 500;
 font-size: 12px;
 line-height: 16px;
 text-align: center;
-letter-spacing: .06rem;
-margin-left: 10px;
+letter-spacing: .03rem;
 }
 
 @media screen and (max-width: 460px) {
   .header__auth {
   font-size: 10px;
-  letter-spacing: .04rem;
+  margin-left: 10px;
   }
 }
