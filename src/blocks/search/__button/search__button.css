@@ -1,0 +1,9 @@
+.search__button {
+  font-size: 11px;
+  line-height: 18px;
+  background-color: #3456F3;
+  color: white;
+  border-radius: 48px;
+  border: none;
+  padding: 8px 13px 7px 12px;
+}

@@ -10,10 +10,8 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Inter', 'Arial', sans-serif;
-  margin: 82px auto 0 auto;
+  margin: 82px 0 0 0;
   padding: 0 70px;
-  min-width: 320px;
-  max-width: 1440px;
   box-sizing: border-box;
 }
 

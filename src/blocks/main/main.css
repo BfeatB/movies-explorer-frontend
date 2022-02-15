@@ -2,17 +2,9 @@
 @import url(./__title/main__title.css);
 
 .main {
-font-family: 'Inter', 'Arial', sans-serif;
-color: black;
-background-color: #FAFAFA;
-;
-min-width: 320px;
-max-width: 1440px;
-margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .main {
-    padding: 0 0 0 0;
-  }
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: black;
+  background-color: white;
+  flex-grow: 1;
+  padding: 0 0 0 0;
 }

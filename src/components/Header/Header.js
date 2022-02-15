@@ -3,14 +3,11 @@ import logo from "../../images/logo.svg";
 
 function Header(props) {
   return (
-    <header className="header">
+    <header className={`header header_${props.mod}`}>
       <a className="link" href="/">
         <img className="header__logo" src={logo} alt="логотип" />
       </a>
-      <nav className="header__nav">
-        <a className="header__auth link">Регистрация</a>
-        <a className="header__auth header__auth_active link">Войти</a>
-      </nav>
+      {props.children}
     </header>
   );
 }

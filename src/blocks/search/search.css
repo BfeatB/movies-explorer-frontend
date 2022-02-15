@@ -1,0 +1,13 @@
+@import url(./__form/search__form.css);
+@import url(./__field/search__field.css);
+@import url(./__button/search__button.css);
+@import url(./__wrapper/search__wrapper.css);
+@import url(./__label/search__label.css);
+@import url(./__toggle-wrapper/search__toggle-wrapper.css);
+
+.search {
+  margin: 77px 70px 0 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
