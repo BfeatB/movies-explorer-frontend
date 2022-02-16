@@ -1,0 +1,15 @@
+@import url(./__title/error-page__title.css);
+@import url(./__description/error-page__description.css);
+@import url(./__back-link/error-page__back-link.css);
+
+.error-page {
+  background-color: #FAFAFA;
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  height: 100vh;
+}

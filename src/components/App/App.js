@@ -5,6 +5,9 @@ import Footer from "../Footer/Footer";
 import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
 import Nav from "../Nav/Nav";
+
+import ErrorModal from "../ErrorModal/ErrorModal";
+
 import './App.css';
 
 function App() {
@@ -31,6 +34,10 @@ function App() {
               <Movies></Movies>
               <Footer></Footer>
       </>}/>
+      <Route path="/error"
+      element={<>
+              <ErrorModal></ErrorModal>
+              </>}/>
       </Routes>
     </div>
     </BrowserRouter>
