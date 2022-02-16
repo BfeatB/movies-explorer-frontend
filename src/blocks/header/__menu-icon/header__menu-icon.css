@@ -1,0 +1,21 @@
+.header__menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-icon {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-image: url(../../../images/menu-icon.svg);
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__menu-icon {
+    width: 21px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}

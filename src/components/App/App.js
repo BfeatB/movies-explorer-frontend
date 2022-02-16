@@ -4,6 +4,7 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
+import Nav from "../Nav/Nav";
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Route path="/movies"
       element={<>
               <Header>
+                <Nav></Nav>
               </Header>
               <Movies></Movies>
               <Footer></Footer>

@@ -4,8 +4,13 @@
 @import url(./__auth/header__auth.css);
 @import url(./__auth/_active/header__auth_active.css);
 @import url(./_grey/header_grey.css);
+@import url(./__nav-link/header__nav-link.css);
+@import url(./__nav-link/_active/header__nav-link_active.css);
+@import url(./__account/header__account.css);
+@import url(./__menu-icon/header__menu-icon.css);
 
 .header {
+  font-family: 'Inter', 'Arial', sans-serif;
   background-color: #FAFAFA;
   ;
   display: flex;

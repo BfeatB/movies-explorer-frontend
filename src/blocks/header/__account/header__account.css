@@ -1,0 +1,17 @@
+.header__account {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: .02rem;
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+  margin: 0 0 0 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__account {
+    display: none;
+  }
+}
