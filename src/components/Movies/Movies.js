@@ -9,6 +9,11 @@ function Movies(props) {
       <SearchForm></SearchForm>
       <MoviesCardList>
         <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard>
+        <MoviesCard></MoviesCard>
       </MoviesCardList>
     </main>
     );
