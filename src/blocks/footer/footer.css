@@ -10,21 +10,19 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Inter', 'Arial', sans-serif;
-  margin: 82px 0 0 0;
-  padding: 0 70px;
+  padding: 82px 70px 0;
   box-sizing: border-box;
+  background-color: #F8F8F8;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 148px 0 0 0;
-    padding: 0 37px;
+    padding: 148px 37px 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer {
-    margin: 92px 0 0 0;
-    padding: 0 9px;
+    padding: 92px 9px 0;
   }
 }

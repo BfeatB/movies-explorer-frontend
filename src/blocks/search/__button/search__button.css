@@ -7,3 +7,9 @@
   border: none;
   padding: 8px 13px 7px 12px;
 }
+
+@media screen and (max-width: 600px) {
+  .search__button {
+    font-size: 11px;
+  }
+}
