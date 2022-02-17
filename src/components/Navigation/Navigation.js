@@ -11,7 +11,7 @@ function Navigation(props) {
           <li><a className="header__menu-icon link"></a></li>
         </ul>
       </nav>
-      <div className="nav-popup nav-popup_opened">
+      <div className="nav-popup">
         <div className="nav-popup__container">
           <button type="button" className="nav-popup__close-btn"></button>
           <nav className="nav-popup__menu">
