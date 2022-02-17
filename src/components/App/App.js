@@ -4,7 +4,7 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
-import Nav from "../Nav/Nav";
+import Nav from "../Navigation/Navigation";
 
 import ErrorModal from "../ErrorModal/ErrorModal";
 

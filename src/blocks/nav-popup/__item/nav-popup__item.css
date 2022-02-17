@@ -1,0 +1,21 @@
+.nav-popup__item {
+  margin: 0 0 29px 0;
+}
+
+.nav-popup__item:last-child {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 0 45px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-popup__item {
+    margin: 0 0 23px 0;
+  }
+
+  .nav-popup__item:last-child {
+    margin: 0 0 35px 0;
+  }
+}

@@ -1,0 +1,18 @@
+.nav-popup__close-btn {
+  background-image: url(../../../images/close-popup-icon.svg);
+  width: 22px;
+  height: 22px;
+  border: none;
+  background-color: transparent;
+  object-fit: contain;
+  background-position: center;
+  justify-self: flex-start;
+  align-self: flex-end;
+  margin: 27px 27px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-popup__close-btn {
+    margin: 18px 18px 0 0;
+  }
+}
