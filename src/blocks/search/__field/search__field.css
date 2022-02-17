@@ -1,13 +1,19 @@
 .search__field {
   border: none;
   background-color: transparent;
-  padding: 0 0 0 0;
+  padding: 0 0 0 10px;
   font-size: 14px;
   line-height: 18px;
+  width: 80%;
+  border-radius: 48px;
 }
 
 @media screen and (max-width: 600px) {
   .search__field {
     font-size: 11px;
   }
+}
+
+.search__field:focus-visible {
+  outline: 1px solid rgba(171, 171, 171, 0.2);;
 }

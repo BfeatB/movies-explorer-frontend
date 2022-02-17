@@ -43,6 +43,15 @@ function App() {
               <Movies isSaved={true}></Movies>
               <Footer></Footer>
       </>}/>
+      <Route path="/profile"
+      element={<>
+      </>}/>
+      <Route path="/signin"
+      element={<>
+      </>}/>
+      <Route path="/signup"
+      element={<>
+      </>}/>
       <Route path="/error"
       element={<>
               <NotFoundPage></NotFoundPage>
