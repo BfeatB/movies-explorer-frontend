@@ -2,20 +2,18 @@ import React from "react";
 import SearchForm from "./SearchForm/SearchForm";
 import MoviesCardList from "./MoviesCardList/MoviesCardList";
 import MoviesCard from "./MoviesCard/MoviesCard";
-import AddButton from "./AddButton/AddButton";
+import AddMoreButton from "./AddMoreButton/AddMoreButton";
+import Like from "./Like/Like";
+import DeleteButton from "./DeleteButton/DeleteButton";
 
 function Movies(props) {
   return (
     <main className="main">
       <SearchForm></SearchForm>
       <MoviesCardList>
-        <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
-        <MoviesCard></MoviesCard>
+        <MoviesCard>{props.isSaved ? <DeleteButton /> : <Like />}</MoviesCard>
       </MoviesCardList>
-      <AddButton></AddButton>
+      <AddMoreButton></AddMoreButton>
     </main>
     );
 }

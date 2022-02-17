@@ -1,6 +1,6 @@
 import React from "react";
 
-function AddButton(props) {
+function AddMoreButton(props) {
   return (
     <button type="button" className="cards__add-button button">
       Eщё
@@ -8,4 +8,4 @@ function AddButton(props) {
   );
 }
 
-export default AddButton;
+export default AddMoreButton;

@@ -1,4 +1,5 @@
 import React from "react";
+import Like from "../Like/Like";
 
 const dummy = {
   "id": 1,
@@ -60,7 +61,7 @@ function MoviesCard(props) {
       <a className="card__link" href={dummy.trailerLink}><img className="card__img" src={`https://api.nomoreparties.co${dummy.image.formats.thumbnail.url}`} alt={`обложка фильма "${dummy.nameRU}"`} /></a>
       <div className="card__wrapper">
         <h2 className="card__name">{dummy.nameRU}</h2>
-        <div className="card__like"></div>
+        {props.children}
       </div>
       <p className="card__duration">{dummy.duration}м</p>
     </article>

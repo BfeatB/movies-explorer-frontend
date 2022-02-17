@@ -2,7 +2,7 @@ import React from "react";
 
 function Like(props) {
   return (
-    <div className="card__like"></div>
+    <button type="button" className="card__like"></button>
   );
 }
 

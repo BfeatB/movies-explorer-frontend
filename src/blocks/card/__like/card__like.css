@@ -2,4 +2,6 @@
   background: url(../../../images/like-disabled.svg);
   width: 24px;
   height: 24px;
+  border: none;
+  background-color: transparent;
 }

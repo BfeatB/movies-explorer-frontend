@@ -1,6 +1,6 @@
 import React from "react";
 
-function ErrorModal(props) {
+function NotFoundPage(props) {
   return (
     <section className="error-page">
       <h2 className="error-page__title">404</h2>
@@ -10,4 +10,4 @@ function ErrorModal(props) {
   );
 }
 
-export default ErrorModal;
+export default NotFoundPage;

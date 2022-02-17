@@ -6,7 +6,7 @@ import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
 import Nav from "../Navigation/Navigation";
 
-import ErrorModal from "../ErrorModal/ErrorModal";
+import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 import './App.css';
 
@@ -31,12 +31,21 @@ function App() {
               <Header>
                 <Nav></Nav>
               </Header>
-              <Movies></Movies>
+              <Movies isSaved={false}></Movies>
+              <Footer></Footer>
+      </>}/>
+
+      <Route path="/saved-movies"
+      element={<>
+              <Header>
+                <Nav></Nav>
+              </Header>
+              <Movies isSaved={true}></Movies>
               <Footer></Footer>
       </>}/>
       <Route path="/error"
       element={<>
-              <ErrorModal></ErrorModal>
+              <NotFoundPage></NotFoundPage>
               </>}/>
       </Routes>
     </div>
