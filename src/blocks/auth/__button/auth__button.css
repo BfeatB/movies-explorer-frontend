@@ -11,3 +11,10 @@
   margin-top: auto;
   justify-self: end;
 }
+
+@media screen and (max-width: 600px) {
+  .auth__button {
+    width: 100%;
+    min-width: 260px;
+  }
+}

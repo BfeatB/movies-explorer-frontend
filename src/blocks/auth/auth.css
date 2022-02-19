@@ -17,3 +17,8 @@
   color: black;
   height: 100vh;
 }
+@media screen and (max-width: 600px) {
+  .auth {
+    padding: 0 30px;
+  }
+}

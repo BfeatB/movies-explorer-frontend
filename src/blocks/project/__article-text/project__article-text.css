@@ -1,4 +1,4 @@
-.project__article_text {
+.project__article-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .project__article_text {
+  .project__article-text {
   font-size: 12px;
   line-height: 18px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .project__article_text {
+  .project__article-text {
     font-size: 11px;
     line-height: 16px;
   }

@@ -18,3 +18,10 @@
   outline: none;
   border-bottom: 1px solid #3456F3;
 }
+
+@media screen and (max-width: 600px) {
+  .auth__field {
+    width: 100%;
+    min-width: 260px;
+  }
+}
