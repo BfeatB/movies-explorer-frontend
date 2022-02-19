@@ -5,5 +5,11 @@
   text-align: end;
   border: none;
   background-color: transparent;
-  padding: 0 0 0 0;
+  padding: 0 0 3px 0;
+  min-width: 80%;
+}
+
+.profile__field:focus-visible {
+  outline: none;
+  border-bottom: 1px solid rgba(171, 171, 171, 0.2);
 }
