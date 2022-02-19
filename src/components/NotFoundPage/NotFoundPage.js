@@ -5,7 +5,7 @@ function NotFoundPage(props) {
     <section className="error-page">
       <h2 className="error-page__title">404</h2>
       <p className="error-page__description">Страница не найдена</p>
-      <a className="error-page__back-link link" href="#">Назад</a>
+      <a className="error-page__back-link link" href="/">Назад</a>
     </section>
   );
 }
