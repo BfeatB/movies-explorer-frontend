@@ -1,0 +1,19 @@
+@import url(./__title/profile__title.css);
+@import url(./__form/profile__form.css);
+@import url(./__wrapper/profile__wrapper.css);
+@import url(./__label/profile__label.css);
+@import url(./__field/profile__field.css);
+@import url(./__bottom-nav/profile__bottom-nav.css);
+@import url(./__edit/profile__edit.css);
+@import url(./__sign-out/profile__sign-out.css);
+
+.profile {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: black;
+  flex-grow: 1;
+  padding: 73px 0 70px 0;
+}

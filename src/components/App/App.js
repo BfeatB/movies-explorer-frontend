@@ -6,6 +6,8 @@ import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
 import Nav from "../Navigation/Navigation";
 
+import Profile from "../Profile/Profile";
+
 import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 import './App.css';
@@ -45,6 +47,10 @@ function App() {
       </>}/>
       <Route path="/profile"
       element={<>
+              <Header>
+                <Nav></Nav>
+              </Header>
+              <Profile userName="Виталий"></Profile>
       </>}/>
       <Route path="/signin"
       element={<>
