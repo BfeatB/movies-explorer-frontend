@@ -1,0 +1,19 @@
+@import url(./__wrapper/auth__wrapper.css);
+@import url(./__logo-link/auth__logo-link.css);
+@import url(./__title/auth__title.css);
+@import url(./__form/auth__form.css);
+@import url(./__label/auth__label.css);
+@import url(./__field/auth__field.css);
+@import url(./__button/auth__button.css);
+@import url(./__signin/auth__signin.css);
+@import url(./__signin-link/auth__signin-link.css);
+
+.auth {
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: black;
+  height: 100vh;
+}

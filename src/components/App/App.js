@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+
 import Header from "../Header/Header"
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import Movies from "../Movies/Movies";
 import AuthNav from "../Main/AuthNav/AuthNav";
-import Nav from "../Navigation/Navigation";
-
+import Navigation from "../Navigation/Navigation";
 import Profile from "../Profile/Profile";
-
+import Register from "../Register/Register";
 import NotFoundPage from "../NotFoundPage/NotFoundPage";
 
 import './App.css';
@@ -31,7 +31,7 @@ function App() {
       <Route path="/movies"
       element={<>
               <Header>
-                <Nav></Nav>
+                <Navigation></Navigation>
               </Header>
               <Movies isSaved={false}></Movies>
               <Footer></Footer>
@@ -40,7 +40,7 @@ function App() {
       <Route path="/saved-movies"
       element={<>
               <Header>
-                <Nav></Nav>
+                <Navigation></Navigation>
               </Header>
               <Movies isSaved={true}></Movies>
               <Footer></Footer>
@@ -48,14 +48,15 @@ function App() {
       <Route path="/profile"
       element={<>
               <Header>
-                <Nav></Nav>
+                <Navigation></Navigation>
               </Header>
               <Profile userName="Виталий"></Profile>
       </>}/>
-      <Route path="/signin"
-      element={<>
-      </>}/>
       <Route path="/signup"
+      element={<>
+      <Register title="Добро пожаловать!"></Register>
+      </>}/>
+      <Route path="/signin"
       element={<>
       </>}/>
       <Route path="/error"
