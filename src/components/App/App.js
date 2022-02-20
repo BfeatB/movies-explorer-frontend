@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movies-explorer-frontend">
       <div className="App">
         <Routes>
           <Route
@@ -57,7 +57,7 @@ function App() {
           <Route path="/error" element={<NotFoundPage></NotFoundPage>} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
