@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../../images/logo.svg";
+import { Link } from "react-router-dom";
 
 
 function Auth(props) {
   return (
     <main className="auth">
       <div className="auth__wrapper">
-        <a className="auth__logo-link link" href="/"><img src={logo} alt="logo"></img></a>
+        <Link className="auth__logo-link link" to="/"><img src={logo} alt="logo"></img></Link>
         <h1 className="auth__title">{props.isSignedIn ? "Рады видеть!" : "Добро пожаловать!"}</h1>
         <form className="auth__form">
           {!props.isSignedIn && <InputRow label="Имя" placeholder="Введите имя" type="text" />}
@@ -32,7 +33,7 @@ function InputRow(props) {
 }
 
 function Footer(props) {
-  return <p className="auth__signin">{props.prefixText} <a href={props.linkHref} className="auth__signin-link link">{props.linkText}</a></p>;
+  return <p className="auth__signin">{props.prefixText} <Link to={props.linkHref} className="auth__signin-link link">{props.linkText}</Link></p>;
 }
 
 export default Auth;

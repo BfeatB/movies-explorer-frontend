@@ -8,16 +8,16 @@ function Portfolio(props) {
       <ul className="portfolio__list">
         <li className="portfolio__item">
           <a className="portfolio__link link" href="#">Статичный сайт
-          <img className="portfolio__arrow" src={arrow} />
+            <img className="portfolio__arrow" src={arrow} />
           </a>
         </li>
         <li className="portfolio__item">
-          <a className="portfolio__link link"href="#">Адаптивный сайт
-          <img className="portfolio__arrow" src={arrow} /></a>
+          <a className="portfolio__link link" href="#">Адаптивный сайт
+            <img className="portfolio__arrow" src={arrow} /></a>
         </li>
         <li className="portfolio__item">
-          <a className="portfolio__link link"href="#">Одностраничное приложение
-          <img className="portfolio__arrow" src={arrow} /></a>
+          <a className="portfolio__link link" href="#">Одностраничное приложение
+            <img className="portfolio__arrow" src={arrow} /></a>
 
         </li>
       </ul>
