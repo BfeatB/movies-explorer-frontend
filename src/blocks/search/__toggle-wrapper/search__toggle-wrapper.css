@@ -14,6 +14,7 @@
   width: 36px;
   border: 1px solid #e4e4e4;
   border-radius: 60px;
+  cursor: pointer;
 }
 .search__toggle-wrapper input + label:before {
   content: "";
