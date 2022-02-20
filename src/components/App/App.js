@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/movies-explorer-frontend">
+    <BrowserRouter basename="/movies-explorer-frontend/">
       <div className="App">
         <Routes>
           <Route
