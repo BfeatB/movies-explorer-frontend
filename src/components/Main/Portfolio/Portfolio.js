@@ -17,7 +17,7 @@ function Portfolio(props) {
             <img className="portfolio__arrow" src={arrow} /></a>
         </li>
         <li className="portfolio__item">
-          <Link className="portfolio__link link" href="/movies">Одностраничное приложение
+          <Link className="portfolio__link link" to="/movies">Одностраничное приложение
             <img className="portfolio__arrow" src={arrow} /></Link>
 
         </li>
