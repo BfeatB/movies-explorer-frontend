@@ -9,12 +9,12 @@ function Profile(props) {
         <div className="profile__wrapper">
           <label className="profile__label">Имя
           </label>
-          <input className="profile__field" type="text" placeholder="Введите имя"></input>
+          <input className="profile__field" type="text" placeholder="Введите имя" value={props.userName} disabled></input>
         </div>
         <div className="profile__wrapper">
           <label className="profile__label">E-mail
           </label>
-          <input className="profile__field" type="email" placeholder="Введите e-mail"></input>
+          <input className="profile__field" type="email" placeholder="Введите e-mail" value={props.email} disabled></input>
         </div>
       </form>
       <div className="profile__bottom-nav">

@@ -50,7 +50,7 @@ function App() {
               <Header>
                 <Navigation></Navigation>
               </Header>
-              <Profile userName="Виталий"></Profile>
+              <Profile userName="Виталий" email="pochta@yandex.ru"></Profile>
             </>} />
           <Route path="/signup" element={<Auth isSignedIn={false}></Auth>} />
           <Route path="/signin" element={<Auth isSignedIn={true}></Auth>} />
