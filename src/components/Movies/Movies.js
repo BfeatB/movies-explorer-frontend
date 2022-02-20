@@ -15,7 +15,7 @@ function Movies(props) {
       </MoviesCardList>
       <AddMoreButton></AddMoreButton>
     </main>
-    );
+  );
 }
 
 export default Movies;
