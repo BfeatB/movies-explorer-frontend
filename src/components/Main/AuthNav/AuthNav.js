@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AuthNav(props) {
   return (
-      <nav className="header__nav">
-        <a className="header__auth link" href="/signup">Регистрация</a>
-        <a className="header__auth header__auth_active link" href="/signin">Войти</a>
-      </nav>
+    <nav className="header__nav">
+      <Link className="header__auth link" to="/signup">Регистрация</Link>
+      <Link className="header__auth header__auth_active link" to="/signin">Войти</Link>
+    </nav>
   );
 }
 

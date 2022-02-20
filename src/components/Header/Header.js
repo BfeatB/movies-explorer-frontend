@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../../images/logo.svg";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <header className={`header header_${props.mod}`}>
-      <a className="link" href="/">
+      <Link className="link" to="/">
         <img className="header__logo" src={logo} alt="логотип" />
-      </a>
+      </Link>
       {props.children}
     </header>
   );
