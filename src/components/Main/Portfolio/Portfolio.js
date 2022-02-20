@@ -1,5 +1,6 @@
 import React from "react";
 import arrow from "../../../images/arrow.svg"
+import { Link } from "react-router-dom";
 
 function Portfolio(props) {
   return (
@@ -16,8 +17,8 @@ function Portfolio(props) {
             <img className="portfolio__arrow" src={arrow} /></a>
         </li>
         <li className="portfolio__item">
-          <a className="portfolio__link link" href="#">Одностраничное приложение
-            <img className="portfolio__arrow" src={arrow} /></a>
+          <Link className="portfolio__link link" href="/movies">Одностраничное приложение
+            <img className="portfolio__arrow" src={arrow} /></Link>
 
         </li>
       </ul>
