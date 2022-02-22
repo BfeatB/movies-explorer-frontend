@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .techs {
     padding: 86px 50px;
   }
@@ -19,7 +19,9 @@
 
 @media screen and (max-width: 400px) {
   .techs {
+    background-color: #FAFAFA;
     padding: 54px 18px;
     justify-content: center;
+    align-items: center;
   }
 }

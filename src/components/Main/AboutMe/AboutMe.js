@@ -17,10 +17,10 @@ function AboutMe(props) {
         <img className="bio__avatar" alt="портрет студента" src={avatar}></img>
         <ul className="bio__list">
           <li>
-            <a className="bio__link" href="https://twitter.com/bfeatb">Twitter</a>
+            <a className="bio__link link" target="_blank" href="https://twitter.com/bfeatb">Twitter</a>
           </li>
           <li>
-            <a className="bio__link" href="https://github.com/BfeatB">Github</a>
+            <a className="bio__link link" target="_blank" href="https://github.com/BfeatB">Github</a>
           </li>
         </ul>
 

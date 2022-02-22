@@ -9,13 +9,13 @@ function Footer(props) {
         <nav>
           <ul className="footer__list">
             <li className="footer__item">
-              <a className="footer__link" href="#">Яндекс.Практикум</a>
+              <a className="footer__link link" target="_blank" href="https://practicum.yandex.ru/">Яндекс.Практикум</a>
             </li>
             <li className="footer__item">
-              <a className="footer__link" href="#">Github</a>
+              <a className="footer__link link" target="_blank" href="https://github.com/BfeatB">Github</a>
             </li>
             <li className="footer__item">
-              <a className="footer__link" href="#">Facebook</a>
+              <a className="footer__link link" target="_blank" href="https://www.facebook.com/">Facebook</a>
             </li>
           </ul>
         </nav>

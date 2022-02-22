@@ -6,7 +6,7 @@
 @import url(./__toggle-wrapper/search__toggle-wrapper.css);
 
 .search {
-  margin: 77px 70px 0 70px;
+  margin: 79px 70px 0 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
