@@ -13,7 +13,7 @@ function Movies(props) {
       <MoviesCardList>
         <MoviesCard>{props.isSaved ? <DeleteButton /> : <Like />}</MoviesCard>
       </MoviesCardList>
-      <AddMoreButton></AddMoreButton>
+      {!props.isSaved && < AddMoreButton />}
     </main>
   );
 }
