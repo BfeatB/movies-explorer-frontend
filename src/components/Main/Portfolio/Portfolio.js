@@ -1,6 +1,5 @@
 import React from "react";
-import arrow from "../../../images/arrow.svg"
-import { Link } from "react-router-dom";
+import arrow from "../../../images/arrow.svg";
 
 function Portfolio(props) {
   return (
@@ -8,17 +7,17 @@ function Portfolio(props) {
       <h2 className="portfolio__title">Портфолио</h2>
       <ul className="portfolio__list">
         <li className="portfolio__item">
-          <a className="portfolio__link link" href="#">Статичный сайт
+          <a className="portfolio__link link" target="_blank" href="https://bfeatb.github.io/Wedding-gift/#">Статичный сайт
             <img className="portfolio__arrow" src={arrow} />
           </a>
         </li>
         <li className="portfolio__item">
-          <a className="portfolio__link link" href="#">Адаптивный сайт
+          <a className="portfolio__link link" target="_blank" href="https://bfeatb.github.io/russian-travel/">Адаптивный сайт
             <img className="portfolio__arrow" src={arrow} /></a>
         </li>
         <li className="portfolio__item">
-          <Link className="portfolio__link link" to="/movies">Одностраничное приложение
-            <img className="portfolio__arrow" src={arrow} /></Link>
+          <a className="portfolio__link link" target="_blank" href="https://bfeatb.github.io/mesto/">Одностраничное приложение
+            <img className="portfolio__arrow" src={arrow} /></a>
 
         </li>
       </ul>
