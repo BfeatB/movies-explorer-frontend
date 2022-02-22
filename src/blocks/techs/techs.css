@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 400px) {
   .techs {
+    background-color: #FAFAFA;
     padding: 54px 18px;
     justify-content: center;
   }

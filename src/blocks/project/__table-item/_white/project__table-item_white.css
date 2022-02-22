@@ -10,3 +10,9 @@
     padding-top: 8px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .project__table-item_white {
+    background-color: #FAFAFA;
+  }
+}
