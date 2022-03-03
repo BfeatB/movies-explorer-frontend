@@ -1,0 +1,18 @@
+.cards__add-button {
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 6px;
+  padding: 11px 147px 9px;
+  align-self: center;
+  justify-self: center;
+  margin: 62px 0 78px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .cards__add-button {
+    padding: 11px 87px 9px;
+    margin: 58px 0 68px 0;
+  }
+}

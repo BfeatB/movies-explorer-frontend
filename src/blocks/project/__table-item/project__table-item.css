@@ -1,0 +1,14 @@
+.project__table-item {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 9px 14px 5px 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .project__table-item {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 13px 14px 11px 14px;
+  }
+}

@@ -1,0 +1,21 @@
+.techs__item {
+  padding-top: 21px;
+  min-width: 90px;
+  min-height: 60px;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: -.04rem;
+}
+
+@media screen and (max-width: 900px) {
+  .techs__item {
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 84px;
+    min-height: 57px;
+  }
+}

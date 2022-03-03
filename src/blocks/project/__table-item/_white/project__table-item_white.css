@@ -1,0 +1,18 @@
+.project__table-item_white {
+  background-color: white;
+  color: #A0A0A0;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .project__table-item_white {
+    margin-top: 0;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project__table-item_white {
+    background-color: #FAFAFA;
+  }
+}

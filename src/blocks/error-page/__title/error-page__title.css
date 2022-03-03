@@ -1,0 +1,14 @@
+.error-page__title {
+  font-size: 140px;
+  line-height: 170px;
+  font-weight: 400;
+  margin: -15px 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  .error-page__title {
+    font-size: 80px;
+    line-height: 97px;
+    margin: -15px 0 0 0;
+  }
+}

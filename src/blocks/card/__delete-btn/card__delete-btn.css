@@ -1,0 +1,8 @@
+.card__delete-btn {
+  background: url(../../../images/close-icon.svg);
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

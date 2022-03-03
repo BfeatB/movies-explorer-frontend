@@ -1,0 +1,30 @@
+
+@import url(./__logo/header__logo.css);
+@import url(./__nav/header__nav.css);
+@import url(./__list/header__list.css);
+@import url(./__auth/header__auth.css);
+@import url(./__auth/_active/header__auth_active.css);
+@import url(./_grey/header_grey.css);
+@import url(./__nav-link/header__nav-link.css);
+@import url(./__nav-link/_active/header__nav-link_active.css);
+@import url(./__account/header__account.css);
+@import url(./__menu-icon/header__menu-icon.css);
+
+.header {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #FAFAFA;
+  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 5.5% 16px 5.5%;
+  box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 16px 4% 16px 4%;
+    min-width: 320px;
+  }
+}

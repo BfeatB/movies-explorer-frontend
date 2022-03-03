@@ -1,0 +1,13 @@
+.bio__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 52%;
+}
+
+@media screen and (max-width: 600px) {
+  .bio__texts {
+    max-width: 100%;
+  }
+}

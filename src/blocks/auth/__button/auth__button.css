@@ -1,0 +1,20 @@
+.auth__button {
+  background-color: #3456F3;
+  color: white;
+  padding: 15px 0;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  width: 396px;
+  text-align: center;
+  margin-top: auto;
+  justify-self: end;
+}
+
+@media screen and (max-width: 600px) {
+  .auth__button {
+    width: 100%;
+    min-width: 260px;
+  }
+}

@@ -1,0 +1,16 @@
+.header__auth {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: .03rem;
+  margin-left: 28px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 460px) {
+  .header__auth {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}

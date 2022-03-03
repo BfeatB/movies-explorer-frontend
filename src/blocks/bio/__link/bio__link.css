@@ -1,0 +1,14 @@
+.bio__link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 21px;
+}
+
+@media screen and (max-width: 600px) {
+  .bio__link{
+    margin-right: 25px;
+  }
+}

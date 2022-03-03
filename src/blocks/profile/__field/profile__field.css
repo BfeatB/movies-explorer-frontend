@@ -1,0 +1,15 @@
+.profile__field {
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+  text-align: end;
+  border: none;
+  background-color: transparent;
+  padding: 0 0 3px 0;
+  min-width: 80%;
+}
+
+.profile__field:focus-visible {
+  outline: none;
+  border-bottom: 1px solid rgba(171, 171, 171, 0.2);
+}

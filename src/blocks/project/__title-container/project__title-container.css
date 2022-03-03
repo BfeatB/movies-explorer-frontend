@@ -1,0 +1,7 @@
+.project__title-container {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+}

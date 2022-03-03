@@ -1,0 +1,7 @@
+.auth__field_error {
+  color: #EE3465;
+  margin-bottom: 6px;
+}
+.auth__field_error:hover {
+  border-color: #EE3465;
+}

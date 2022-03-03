@@ -1,0 +1,21 @@
+.project__article {
+  display: flex;
+  flex-direction: column;
+  max-width: 48.2%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 70px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .project__article {
+    max-width: 47.8%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project__article {
+    margin: 61px 0 -4px 0;
+    max-width: 100%;
+  }
+}

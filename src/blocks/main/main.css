@@ -1,0 +1,11 @@
+@import url(./__title-wrapper/main__title-wrapper.css);
+@import url(./__title/main__title.css);
+
+.main {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: black;
+  background-color: #FAFAFA;
+  flex-grow: 1;
+  padding: 0 0 0 0;
+  position: relative;
+}

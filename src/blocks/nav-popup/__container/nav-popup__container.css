@@ -1,0 +1,15 @@
+.nav-popup__container {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 67.7%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-popup__container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.card__duration {
+  font-size: 11px;
+  line-height: 13px;
+  color: #A0A0A0;
+  text-align: start;
+  max-width: 225px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 7px 0 0 0;
+}

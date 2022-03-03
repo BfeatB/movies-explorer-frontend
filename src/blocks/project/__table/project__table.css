@@ -1,0 +1,21 @@
+.project__table {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr 1fr;;
+  margin: 110px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .project__table {
+    margin: 93px 0 0 0;
+    grid-template-columns: 21% 79%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .project__table {
+    margin: 63px 0 0 0;
+    grid-template-columns: 35% 65%;
+
+  }
+}

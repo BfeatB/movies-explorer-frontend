@@ -1,0 +1,25 @@
+@import url(./__article/bio__article.css);
+@import url(./__title/bio__title.css);
+@import url(./__description/bio__description.css);
+@import url(./__texts/bio__texts.css);
+@import url(./__text/bio__text.css);
+@import url(./__list/bio__list.css);
+@import url(./__link/bio__link.css);
+@import url(./__avatar/bio__avatar.css);
+
+.bio {
+  padding: 111px 70px 87px 70px;
+  background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 768px) {
+  .bio {
+    padding: 90px 50px 76px 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bio {
+    padding: 82px 15px 30px 15px;
+  }
+}

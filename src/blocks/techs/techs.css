@@ -1,0 +1,27 @@
+@import url(./__title/techs__title.css);
+@import url(./__capture/techs__capture.css);
+@import url(./__list/techs__list.css);
+@import url(./__item/techs__item.css);
+
+.techs {
+  background-color: #F5F5F5;
+  padding: 96px 70px 95px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .techs {
+    padding: 86px 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .techs {
+    background-color: #FAFAFA;
+    padding: 54px 18px;
+    justify-content: center;
+    align-items: center;
+  }
+}

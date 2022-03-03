@@ -1,0 +1,14 @@
+.portfolio__arrow {
+  width: 18px;
+  height: 60px;
+  object-fit: contain;
+  padding: 0 6px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__arrow  {
+    width: 10px;
+    height: 23px;
+  }
+}
+

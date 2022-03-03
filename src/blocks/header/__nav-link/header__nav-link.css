@@ -1,0 +1,13 @@
+.header__nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 0 0 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-link {
+    display: none;
+  }
+}

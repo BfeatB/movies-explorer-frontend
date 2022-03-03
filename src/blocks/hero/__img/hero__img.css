@@ -1,0 +1,19 @@
+.hero__img {
+  position: absolute;
+  max-width: 500px;
+  top: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__img {
+    top: 222px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero__img {
+    top: 140px;
+    max-width: 248px;
+  }
+}
